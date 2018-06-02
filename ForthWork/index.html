@@ -1,0 +1,19 @@
+ <html>
+    <head>
+         <title>forthwork</title>
+    </head>
+    <body>
+         <ul>
+            <li><a href="javascript:popUp('http://www.nihao.com/');">Example1</a></li>
+            <li><a href="#" onclick="popUp('http://www.nihao.com/'); return false;">Example2</a></li>
+            <li><a href="http://www.nihao.com/" onclick="popUp(this.href); return false;">Example3</a></li>
+         </ul>
+    </body>
+    <script>
+          function popUp(winURL){
+            window.open(winURL,"popup","width=320,height=480");
+          }
+    </script>
+</html>
+
+

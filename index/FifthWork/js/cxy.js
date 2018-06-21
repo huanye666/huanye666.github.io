@@ -24,7 +24,7 @@ function preparePlaceholder() {
   if (!document.createTextNode) return false;
   if (!document.getElementById) return false;
   if (!document.getElementById("imagegallery")) return false;
-  var placeholder = document.createElement("img");
+  /*var placeholder = document.createElement("img");
   placeholder.setAttribute("id","placeholder");
   placeholder.setAttribute("src","meitu.jpg");
   placeholder.setAttribute("alt","my image gallery");
@@ -34,7 +34,7 @@ function preparePlaceholder() {
   description.appendChild(desctext);
   var gallery = document.getElementById("imagegallery");
   insertAfter(placeholder,gallery);
-  insertAfter(description,placeholder);
+  insertAfter(description,placeholder);*/
 }
 
 function prepareGallery() {

@@ -3,7 +3,7 @@ h1{color:#333;background-color:transparent;}
 a{color:#c60;background-color:transparent;font-weight:bold;text-decoration:none;}
 ul{padding:0;}
 li{float:left;padding:1em;list-style:none;}
-ul li img{heigh:175px;width:200px;}
+ul li img{height:175px;width:200px;}
 #imagegallery{list-style:none;} 
 #imagegallery li{display:inline;}
 #imagegallery li a img{border:0;}

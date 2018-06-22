@@ -1,0 +1,17 @@
+@charset "utf-8";
+.content{height: auto;width: 100%;margin: 0 auto;}
+.MainContent{width: 1024px;height: 1002px;margin: 0 auto;}
+.head img{width: 1024px;height: 300px;padding-bottom: 20px;}
+.main{float:left;width: 600px;}
+.main h1{color:#333;background-color:transparent;}
+.main ul li a{color:#c60;background-color:transparent;font-weight:bold;text-decoration:none;}
+.main ul{padding:0;}
+.main ul li{float:left;padding:1em;list-style:none;}
+img{display:block;clear:both;}
+.main-right{float: :right;padding-left: 20px;}
+.text{padding-top: 20px;}
+.text p{font-size: 18px;font-family: "楷体";}
+.bottom{margin-top: 40px;float:right;}
+.bottom p{float: left;font-family: "楷体";font-size: 18px;}
+.text1{padding-right: 20px;}
+.bottom p a{color:blue;}
